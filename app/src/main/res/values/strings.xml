@@ -2,5 +2,7 @@
     <string name="app_name">Geo Guru</string>
     <string name="geo_guru">Geo Guru</string>
     <string name="action_how_to_play">How To Play</string>
-    <string name="instructions">Select the capital that matches the given country</string>
+    <string name="instructions">You will be given a country with a list of cities to choose from.
+    Select the capital of that country from the list to get the point. You will receive 10 questions.
+    Good luck! </string>
 </resources>
