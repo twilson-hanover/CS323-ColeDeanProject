@@ -6,11 +6,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.content.Intent;
 import android.view.View;
+import android.widget.RadioGroup;
+import android.widget.RadioButton;
 import android.widget.AdapterView;
 
 
 public class Q1Activity extends Activity {
 
+    public boolean isCorrect = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +46,21 @@ public class Q1Activity extends Activity {
                 return super.onOptionsItemSelected(item);
 
         }
+    }
+
+    public void onRadioButtonClicked1(View view) {
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.set1);
+        int id = radioGroup.getCheckedRadioButtonId();
+
+        if (id == -1) {
+            //no item selected
+        } else {
+            RadioButton radioButton = findViewById(id);
+            if(radioButton == findViewById(R.id.thimphu)) {
+                isCorrect = true;
+            }
+        }
+
     }
 
 }
