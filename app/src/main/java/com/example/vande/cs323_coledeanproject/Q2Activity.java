@@ -9,12 +9,12 @@ import android.view.View;
 import android.widget.AdapterView;
 
 
-public class Q1Activity extends Activity {
+public class Q2Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_q1);
+        setContentView(R.layout.activity_q2);
     }
 
     @Override
@@ -24,9 +24,9 @@ public class Q1Activity extends Activity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    public void toQ2Activity(View view) {
-        Intent intent = new Intent(this, Q2Activity.class);
-        startActivity(intent);
+    public void toQ3Activity(View view) {
+        //Intent intent = new Intent(this, Q3Activity.class);
+        //startActivity(intent);
     }
 
     @Override
