@@ -17,10 +17,19 @@
 
     <CheckBox
         android:layout_width="220dp"
-        android:layout_height="85dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="103dp" />
+        android:layout_marginBottom="145dp"
+        android:text="@string/q3a2" />
+
+    <CheckBox
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:text="@string/q3a3" />
 
     <ImageView
         android:id="@+id/q3_image"
@@ -43,5 +52,13 @@
         android:text="To End"
         tools:layout_editor_absoluteX="124dp"
         tools:layout_editor_absoluteY="412dp" />
+
+    <CheckBox
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q3_question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-219dp"
+        android:text="@string/q3a1" />
 
 </RelativeLayout>

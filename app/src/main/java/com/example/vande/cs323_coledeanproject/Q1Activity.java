@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 
 public class Q1Activity extends Activity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +24,7 @@ public class Q1Activity extends Activity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
 
     public void toQ2Activity(View view) {
         Intent intent = new Intent(this, Q2Activity.class);

@@ -17,10 +17,19 @@
 
     <CheckBox
         android:layout_width="220dp"
-        android:layout_height="85dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="103dp" />
+        android:layout_marginBottom="145dp"
+        android:text="@string/q2a2" />
+
+    <CheckBox
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:text="@string/q2a3" />
 
     <ImageView
         android:id="@+id/q2_image"
@@ -39,9 +48,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
         android:onClick="toQ3Activity"
         android:text="To Question 3"
         tools:layout_editor_absoluteX="124dp"
         tools:layout_editor_absoluteY="412dp" />
+
+    <CheckBox
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/q2_question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-219dp"
+        android:text="@string/q2a1" />
 
 </RelativeLayout>

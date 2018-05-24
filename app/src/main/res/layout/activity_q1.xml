@@ -15,21 +15,21 @@
         android:layout_marginBottom="219dp"
         android:text="@string/q1" />
 
-    <CheckBox
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/q1_question"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-219dp"
-        android:text="@string/q1a1" />
+    <!--<CheckBox-->
+        <!--android:layout_width="220dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/q1_question"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="-219dp"-->
+        <!--android:text="@string/q1a1" />-->
 
-    <CheckBox
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="145dp"
-        android:text="@string/q1a2" />
+    <!--<CheckBox-->
+        <!--android:layout_width="220dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="145dp"-->
+        <!--android:text="@string/q1a2" />-->
 
     <ImageView
         android:id="@+id/q1_image"
@@ -51,12 +51,24 @@
         android:onClick="toQ2Activity"
         android:text="Question 2" />
 
-    <CheckBox
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="105dp"
-        android:text="@string/q1a3" />
+    <!--<CheckBox-->
+        <!--android:layout_width="220dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="105dp"-->
+        <!--android:text="@string/q1a3" />-->
+
+    <RadioGroup
+        android:id="@+id/set1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/thimphu"
+            android:text="@string/q1a1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
 
 </RelativeLayout>

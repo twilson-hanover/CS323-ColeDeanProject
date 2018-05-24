@@ -40,4 +40,14 @@ public class EndActivity extends Activity {
 
         }
     }
+
+    public void winLose(boolean bq1, boolean bq2, boolean bq3) {
+        if(bq1 && bq2 && bq3) {
+
+        }
+
+        else {
+
+        }
+    }
 }
