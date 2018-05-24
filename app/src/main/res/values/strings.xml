@@ -14,4 +14,17 @@
     <string name="q1">What is the capital of Bhutan?</string>
     <string name="q2">What is the capital of Laos?</string>
     <string name="q3">What is the capital of Latvia?</string>
+
+    <string name="q1a1">Thimphu</string>
+    <string name="q1a2">Sofia</string>
+    <string name="q1a3">Lima</string>
+
+    <string name="q2a1">Budapest</string>
+    <string name="q2a2">Vientiane</string>
+    <string name="q2a3">Adis Ababba</string>
+
+    <string name="q3a1">Caracas</string>
+    <string name="q3a2">Prague</string>
+    <string name="q3a3">Riga</string>
+
 </resources>

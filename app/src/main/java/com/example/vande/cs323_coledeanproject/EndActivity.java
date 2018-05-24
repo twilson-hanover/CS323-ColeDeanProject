@@ -7,12 +7,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Q3Activity extends Activity {
+public class EndActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_q3);
+        setContentView(R.layout.activity_end);
     }
 
     @Override
@@ -23,8 +23,8 @@ public class Q3Activity extends Activity {
     }
 
     public void toEnd(View view) {
-        Intent intent = new Intent(this, EndActivity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(this, Q3Activity.class);
+        //startActivity(intent);
     }
 
     @Override
