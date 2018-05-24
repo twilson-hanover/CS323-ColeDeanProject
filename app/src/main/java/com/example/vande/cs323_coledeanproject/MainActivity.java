@@ -24,13 +24,18 @@ public class MainActivity extends Activity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    public void toQ1Activity(View view) {
+        Intent intent = new Intent(this, Q1Activity.class);
+        startActivity(intent);
+    }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()) {
             case R.id.action_instruct:
                 //code to run when the item is clicked
-                Intent intent = new Intent(this, InstructActivity.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(this, InstructActivity.class);
+                startActivity(intent1);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
