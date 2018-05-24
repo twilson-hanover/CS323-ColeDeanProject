@@ -30,4 +30,6 @@
     <string name="won">Congratulations! You won!</string>
     <string name="lost">Sucks to suck</string>
 
+    <string name="end_description">Congratulations! You made it to the end!</string>
+
 </resources>

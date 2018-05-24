@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+import android.view.LayoutInflater;
 
 public class EndActivity extends Activity {
 
@@ -52,16 +53,16 @@ public class EndActivity extends Activity {
     }
 
     public void showResults(View view) {
+
         if(youWon) {
-            Toast youWon = new Toast(this);
-            youWon.setDuration(Toast.LENGTH_LONG);
-            youWon.setText(R.string.won);
-            youWon.show();
+            Intent intent = new Intent(this, ToastService.class);
+            intent.putExtra(ToastService.EXTRA_MESSAGE, getResources().getString(R.string.won));
+            startService(intent);
         } else {
-            Toast youLost = new Toast(this);
-            youLost.setDuration(Toast.LENGTH_LONG);
-            youLost.setText(R.string.lost);
-            youLost.show();
+            Intent intent = new Intent(this, ToastService.class);
+            intent.putExtra(ToastService.EXTRA_MESSAGE, getResources().getString(R.string.lost));
+            startService(intent);
         }
+
     }
 }
