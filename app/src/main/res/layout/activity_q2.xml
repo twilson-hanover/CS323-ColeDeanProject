@@ -15,21 +15,21 @@
         android:layout_marginBottom="219dp"
         android:text="@string/q2" />
 
-    <CheckBox
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="145dp"
-        android:text="@string/q2a2" />
+    <!--<CheckBox-->
+        <!--android:layout_width="220dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="145dp"-->
+        <!--android:text="@string/q2a2" />-->
 
-    <CheckBox
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="105dp"
-        android:text="@string/q2a3" />
+    <!--<CheckBox-->
+        <!--android:layout_width="220dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="105dp"-->
+        <!--android:text="@string/q2a3" />-->
 
     <ImageView
         android:id="@+id/q2_image"
@@ -54,12 +54,40 @@
         tools:layout_editor_absoluteX="124dp"
         tools:layout_editor_absoluteY="412dp" />
 
-    <CheckBox
-        android:layout_width="220dp"
+    <!--<CheckBox-->
+        <!--android:layout_width="220dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/q2_question"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="-219dp"-->
+        <!--android:text="@string/q2a1" />-->
+
+    <RadioGroup
+        android:id="@+id/set1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/q2_question"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-219dp"
-        android:text="@string/q2a1" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="111dp">
+
+        <RadioButton
+            android:id="@+id/budapest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2a1" />
+
+        <RadioButton
+            android:id="@+id/vientiane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2a2" />
+
+        <RadioButton
+            android:id="@+id/adis_ababba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/q2a3" />
+    </RadioGroup>
 
 </RelativeLayout>
