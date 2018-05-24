@@ -6,4 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".Q1Activity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bhutan_project_photo"
+        android:contentDescription="@string/bhutan_img" />
+
 </android.support.constraint.ConstraintLayout>

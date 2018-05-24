@@ -8,9 +8,5 @@
         android:title="@string/action_how_to_play"
         android:icon="@drawable/baseline_info_black_18dp"
         android:orderInCategory="1"
-        app:showAsAction="always" /> //originally android:showAsAction
-
-
-
-
+        app:showAsAction="always" /> <!--//originally android:showAsAction-->
 </menu>

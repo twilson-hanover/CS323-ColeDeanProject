@@ -9,11 +9,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
         android:layout_marginTop="58dp"
-        android:text="@string/action_how_to_play"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        android:text="@string/action_how_to_play" />
+        <!--android:textAppearance="@style/Base.TextAppearance.app.Large" />-->
 
     <TextView
         android:layout_width="wrap_content"
@@ -21,9 +23,10 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="129dp"
-        android:text="@string/instructions"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+        android:text="@string/instructions" />
+        <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />-->
 
 </RelativeLayout>
