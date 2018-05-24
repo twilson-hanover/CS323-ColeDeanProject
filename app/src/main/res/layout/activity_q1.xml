@@ -7,9 +7,16 @@
     tools:context=".Q1Activity">
 
     <ImageView
+        android:id="@+id/q1_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/bhutan_project_photo"
         android:contentDescription="@string/bhutan_img" />
+
+    <TextView
+        android:id="@+id/q1_question"
+        android:text="@string/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </android.support.constraint.ConstraintLayout>
