@@ -6,8 +6,12 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 public class Q3Activity extends Activity {
+
+    public boolean isCorrect3 = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,20 @@ public class Q3Activity extends Activity {
             default:
                 return super.onOptionsItemSelected(item);
 
+        }
+    }
+
+    public void onRadioButtonClicked3(View view) {
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.set3);
+        int id = radioGroup.getCheckedRadioButtonId();
+
+        if (id == -1) {
+            //no item selected
+        } else {
+            RadioButton radioButton = findViewById(id);
+            if (radioButton == findViewById(R.id.riga)) {
+                isCorrect3 = true;
+            }
         }
     }
 }

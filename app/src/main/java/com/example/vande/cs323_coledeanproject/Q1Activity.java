@@ -48,6 +48,10 @@ public class Q1Activity extends Activity {
         }
     }
 
+    public boolean getCorrect1() {
+        return isCorrect1;
+    }
+
     public void onRadioButtonClicked1(View view) {
         RadioGroup radioGroup = (RadioGroup) findViewById(R.id.set1);
         int id = radioGroup.getCheckedRadioButtonId();

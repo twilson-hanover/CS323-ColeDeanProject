@@ -6,8 +6,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 public class EndActivity extends Activity {
+
+    public boolean youWon = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,12 +45,23 @@ public class EndActivity extends Activity {
     }
 
     public void winLose(boolean bq1, boolean bq2, boolean bq3) {
+//        bq1 = Q1Activity.class.getMethod("getCorrect1", );
         if(bq1 && bq2 && bq3) {
-
+            youWon = true;
         }
+    }
 
-        else {
-
+    public void showResults(View view) {
+        if(youWon) {
+            Toast youWon = new Toast(this);
+            youWon.setDuration(Toast.LENGTH_LONG);
+            youWon.setText(R.string.won);
+            youWon.show();
+        } else {
+            Toast youLost = new Toast(this);
+            youLost.setDuration(Toast.LENGTH_LONG);
+            youLost.setText(R.string.lost);
+            youLost.show();
         }
     }
 }

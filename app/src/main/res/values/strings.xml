@@ -27,4 +27,7 @@
     <string name="q3a2">Prague</string>
     <string name="q3a3">Riga</string>
 
+    <string name="won">Congratulations! You won!</string>
+    <string name="lost">Sucks to suck</string>
+
 </resources>
