@@ -13,7 +13,7 @@ import android.widget.AdapterView;
 
 public class Q1Activity extends Activity {
 
-    public boolean isCorrect = false;
+    public boolean isCorrect1 = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +57,7 @@ public class Q1Activity extends Activity {
         } else {
             RadioButton radioButton = findViewById(id);
             if(radioButton == findViewById(R.id.thimphu)) {
-                isCorrect = true;
+                isCorrect1 = true;
             }
         }
 

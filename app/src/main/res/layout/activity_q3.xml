@@ -63,7 +63,7 @@
         <!--android:text="@string/q3a1" />-->
 
     <RadioGroup
-        android:id="@+id/set1"
+        android:id="@+id/set3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

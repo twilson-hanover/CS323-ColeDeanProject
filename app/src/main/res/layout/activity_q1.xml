@@ -48,18 +48,21 @@
             android:id="@+id/thimphu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked1"
             android:text="@string/q1a1" />
 
         <RadioButton
             android:id="@+id/sofia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked1"
             android:text="@string/q1a2" />
 
         <RadioButton
             android:id="@+id/lima"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked1"
             android:text="@string/q1a3" />
     </RadioGroup>
 

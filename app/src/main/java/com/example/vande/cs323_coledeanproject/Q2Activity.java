@@ -7,9 +7,13 @@ import android.view.MenuItem;
 import android.content.Intent;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 
 
 public class Q2Activity extends Activity {
+
+    public boolean isCorrect2 = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,5 +47,18 @@ public class Q2Activity extends Activity {
         }
     }
 
+    public void onRadioButtonClicked2(View view) {
+        RadioGroup radioGroup = (RadioGroup) findViewById(R.id.set2);
+        int id = radioGroup.getCheckedRadioButtonId();
+
+        if (id == -1) {
+            //no item selected
+        } else {
+            RadioButton radioButton = findViewById(id);
+            if (radioButton == findViewById(R.id.vientiane)) {
+                isCorrect2 = true;
+            }
+        }
+    }
 }
 
