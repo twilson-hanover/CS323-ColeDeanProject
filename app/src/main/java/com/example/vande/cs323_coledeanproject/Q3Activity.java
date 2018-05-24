@@ -1,20 +1,18 @@
 package com.example.vande.cs323_coledeanproject;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.content.Intent;
 import android.view.View;
-import android.widget.AdapterView;
 
-
-public class Q2Activity extends Activity {
+public class Q3Activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_q2);
+        setContentView(R.layout.activity_q3);
     }
 
     @Override
@@ -25,8 +23,8 @@ public class Q2Activity extends Activity {
     }
 
     public void toQ3Activity(View view) {
-        Intent intent = new Intent(this, Q3Activity.class);
-        startActivity(intent);
+        //Intent intent = new Intent(this, Q3Activity.class);
+        //startActivity(intent);
     }
 
     @Override
@@ -42,6 +40,4 @@ public class Q2Activity extends Activity {
 
         }
     }
-
 }
-

@@ -1,10 +1,17 @@
 <resources>
     <string name="app_name">Geo Guru</string>
     <string name="geo_guru">Geo Guru</string>
-    <string name="action_how_to_play">How To Play</string>
+
     <string name="bhutan_img">Bhutan Image</string>
+    <string name="laos_img">Laos Image</string>
+    <string name="latvia_img">Latvia Image</string>
+
+    <string name="action_how_to_play">How To Play</string>
     <string name="instructions">You will be given a country with a list of cities to choose from.
     Select the capital of that country from the list to get the point. You will receive 10 questions.
     Good luck! </string>
+
     <string name="q1">What is the capital of Bhutan?</string>
+    <string name="q2">What is the capital of Laos?</string>
+    <string name="q3">What is the capital of Latvia?</string>
 </resources>
