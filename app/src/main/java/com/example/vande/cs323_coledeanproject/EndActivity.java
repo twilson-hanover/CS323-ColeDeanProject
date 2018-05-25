@@ -11,7 +11,7 @@ import android.view.LayoutInflater;
 
 public class EndActivity extends Activity {
 
-    public boolean youWon = false;
+    public boolean youWon = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
